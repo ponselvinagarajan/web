@@ -71,6 +71,9 @@
 	.container{
 		width:90%
 	}
+	.vimg{
+		min-height:620px;
+	}
 	.d-none{
 		display:none;
 	}

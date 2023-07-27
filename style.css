@@ -161,7 +161,7 @@
 
 }
 .a2 {
-
+    padding:20px 0;
 	list-style:none;
 	margin-left:30px;
 }
@@ -188,7 +188,7 @@ h4::after{
 
 }
 .icon{
-	
+	font-size:20px;
 	color:red;
 }	
 
@@ -201,7 +201,11 @@ h4::after{
 	text-decoration:none;
 	border-radius:5px;
 	border:2px solid red;
+	margin:20px 0;
 
+}
+.number h3{
+	padding-left:10px;
 }
 .edit h1{
 	color:black;
@@ -242,7 +246,7 @@ h4::after{
 
 }
 #eum{
-	background-color:lightblue;
+	background-color:#007aff17;
 }
 .multi4 h3{
 	color:#123a6d;
@@ -251,6 +255,109 @@ h4::after{
 	color:red;
 	transition:all 0.2s ease;
 }
-.banner1 ,btn ,a{
-	padding:20px;
+.btn a{
+	margin:20px 0;
+}
+.vimg{
+	background:linear-gradient(#8d5c5c26,#8d5c5c26) ,url("image/pon.jpg");
+	height:100%;
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	width:100%;
+}
+.vimg i{
+	font-size:90px;
+	position:absolute;
+	bottom:50%;
+	right:45%;
+	top:50%;
+	color:#ff6400;
+	background-color:orange;
+	
+}
+.multi4 span{
+	color:red;
+}
+.multi4 i{
+    margin-left:90px;
+	align-items:end;
+}
+
+#service{
+	padding:20px 0;
+	background-color:#007aff17;
+	margin-top:10px;
+}
+.service1{
+	background-color:white;
+	margin-bottom:20px;
+	padding:50px 0;
+	padding-left:30px;
+	align-items:center;
+
+	
+
+}
+.ser1 i{
+	border-radius:5px;
+	background-color:#ed502e;
+	color:white;
+	font-size:30px;
+	padding:10px 15px;
+	position:relative;
+	left:40%;
+	top:5px;
+	box-shadow:5px 5px 5px pink;
+	
+	
+}
+.service1 h3{
+	padding-top:20px;
+	font-size:30px;
+	text-align:center;
+}
+.service1 p{
+	font-size:20px;
+	text-align:center;
+}
+.service1:hover{
+	background-color:#ed502e;
+	color:white;
+	transition:all o.2s ease;
+}
+.ser1 i:hover{
+	background-color:white;
+	color:#ed502e;
+	transition:all 0.2s ease;
+}
+ 
+#test{
+	padding:20px 0;
+	background-color:#007aff17;
+	margin-top:10px;
+	margin-left:30px;
+
+}
+.test1{
+	background-color:white;
+	padding:20px 0;
+	padding-left:60px;
+	position:relative;
+}
+.test2 h3{
+	padding-top:20px;
+	
+}
+.test2 p{
+	padding-top:1px;
+}
+.test3{
+	position:absolute;
+   left:-40px;
+}
+.row1{
+	justify-content:space-evenly;
+	display:flex;
+	
 }
