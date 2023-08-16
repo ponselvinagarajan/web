@@ -5,7 +5,11 @@
 	.container{
 		width:100%
 	}
-	.col-1-sm{
+	.banner2{
+		text-align:center;
+	}
+
+		.col-1-sm{
 	 
 	 width:8.33%;
 	 padding:0 15px;
@@ -71,9 +75,10 @@
 	.container{
 		width:90%
 	}
-	.vimg{
-		min-height:620px;
+	.banner2{
+		text-align:center;
 	}
+
 	.d-none{
 		display:none;
 	}
