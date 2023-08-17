@@ -158,7 +158,7 @@
 }
 .multi1{
 	background:linear-gradient(#372f2f52,#372f2f52) ,url("image/p.jpg");
-	height:70vh;
+	height:80vh;
 	background-position:center;
 	background-size:cover;
 	align-items:center;
@@ -343,9 +343,10 @@
 }
 .vimg img{
 	object-fit:cover;
- height:70vh;
- margin-left:110px;
+ /* height:70vh; */
+ 
  width:100%;
+ margin-left:130px;
 	
 
 }
@@ -458,9 +459,9 @@
 .vimg i{
 	font-size:70px;
 	position:absolute;
-	right:34%;
+	right:27%;
 	color:#ff6400;
-	top:44%;
+	top:48%;
 		
 }
 /* .eum1 span{ */
@@ -984,11 +985,10 @@
 	text-decoration:none;
 	background-color:#ed502e;
 	color:white;
-	padding:16px 20px;
+	padding:15px 20px;
   	 position:relative;
-	left:74%;
+	left:72%;
 	top:17px;
-	border-radius:5px;
 	font-family: 'open sans', sans-serif;
 	
 }
@@ -1178,7 +1178,7 @@
 }
 .porticon i{
 	color:#123a6d;
-	font-size:20px;
+	font-size:18px;
 	padding-top:10px;
 	padding-right:20px;
 }
