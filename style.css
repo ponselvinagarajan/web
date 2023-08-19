@@ -109,6 +109,7 @@
 	font-weight:400;
 	transition:all 0.3s ease;
 	font-family: 'open sans', sans-serif;
+	/* color:#0b2341; */
 }
 .list a:hover{
 	color:red;
@@ -321,6 +322,7 @@
 	font-weight:600;
 	margin-top:40px;
 	transition:0.5s;
+	color:#164682;
 }
 .details1 a:hover{
 	color:#2169c4;
@@ -346,7 +348,7 @@
  /* height:70vh; */
  
  width:100%;
- margin-left:130px;
+ margin-left:114px;
 	
 
 }
@@ -672,7 +674,8 @@
 	font-weight:600;
 	font-family:"open sans" ,sans-serif;
 	gap:20px;
-	padding-bottom:30px;	
+	padding-bottom:30px;
+    transition:0.5s;	
 }
 .app2 a:hover{
 	color:#ed502e;
@@ -987,7 +990,8 @@
 	color:white;
 	padding:15px 20px;
   	 position:relative;
-	left:72%;
+	left:71%;
+	border-radius:5px;
 	top:17px;
 	font-family: 'open sans', sans-serif;
 	
@@ -1180,7 +1184,7 @@
 	color:#123a6d;
 	font-size:18px;
 	padding-top:10px;
-	padding-right:20px;
+	padding-left:20px;
 }
 .port{
 	position:relative;
@@ -1198,6 +1202,7 @@
 }
 .porticon i:hover{
 	color:#ed502e;
+	transition:0.5s;
 }
 .port:hover .portcon{
 	opacity:1;
