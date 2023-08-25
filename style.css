@@ -109,6 +109,7 @@
 	font-weight:400;
 	transition:all 0.3s ease;
 	font-family: 'open sans', sans-serif;
+	color:black;
 	/* color:#0b2341; */
 }
 .navlist a:hover{
@@ -162,7 +163,7 @@
 	opacity:0.8;
 
 }
-.hh{
+.navlist-item{
 	color:red;
 }
 .banner-section{
@@ -667,7 +668,7 @@
 }
 .Portfolio-navlist a{
 	text-decoration:none;
-	
+	color:black;
 
 }
 .Portfolio-cardimg{
