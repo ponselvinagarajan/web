@@ -3,7 +3,8 @@
 		display:none;
 	}
 	.container{
-		width:100%
+		width:100%;
+		padding:0px 10px;
 	}
 	.banner2{
 		text-align:center;
@@ -69,6 +70,10 @@
 	 
 	 width:100%;
 	 padding:0 15px;
+ }
+ .title h1{
+	 padding:15px 0;
+	 font-size:30px;
  }
 }
 @media( min-width:768px) and ( max-width:999px){
